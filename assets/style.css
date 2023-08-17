@@ -1,0 +1,11 @@
+.top-header {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.top-header .top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
