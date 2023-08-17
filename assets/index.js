@@ -12,3 +12,5 @@ let headLinks = `
   <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="style.css">
 `;
+
+document.querySelector('#link-all-page').insertAdjacentHTML('beforeend', headLinks);
