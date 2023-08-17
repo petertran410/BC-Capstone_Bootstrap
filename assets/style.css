@@ -256,4 +256,15 @@ button.search-btn:hover {
 /* End Top Header */
 
 /* Slide */
+.carousel {
+}
 
+.carousel .carousel_item .banner-top1, .carousel .carousel_item .banner-top2 {
+  width: 100%;
+  height: auto;
+}
+
+.carousel .carousel_item .banner-top1 img, .carousel .carousel_item .banner-top2 img {
+  width: 100%;
+  height: auto;
+}
