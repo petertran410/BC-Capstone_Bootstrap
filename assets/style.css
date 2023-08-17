@@ -50,5 +50,11 @@
   z-index: 999;
 }
 
-
+.header .navbar {
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 24px 10px;
+}
 /* End Top Header */
