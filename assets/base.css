@@ -27,3 +27,7 @@ a {
 ul, li, a {
   transition: all 0.5s;
 }
+
+body a, button, .btn {
+  cursor: pointer !important;
+}
