@@ -27,9 +27,21 @@ ul {
   list-style-type: none;
 }
 
+li {
+  list-style: none;
+}
+
 a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: black;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+a:hover {
+  color: #0d369f;
 }
 
 p {
@@ -42,6 +54,10 @@ p {
 }
 
 ul, li, a {
+  transition: all 0.5s;
+}
+
+body button, .btn, body a {
   transition: all 0.5s;
 }
 
