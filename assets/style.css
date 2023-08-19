@@ -30,6 +30,7 @@
   color: #ff6e65;
   transition: 0.5s all;
 }
+
 /* End Top Header */
 
 /* Header */
@@ -112,7 +113,9 @@
 }
 
 @media (min-width: 992px) {
-  .ml-lg-auto, .mx-lg-auto {
+
+  .ml-lg-auto,
+  .mx-lg-auto {
     margin-left: auto !important;
   }
 }
@@ -136,7 +139,8 @@ div ul li {
   text-align: center;
 }
 
-.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .navbar-expand-lg .navbar-nav .nav-link:hover {
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
   color: #ff6e65;
 }
 
@@ -208,7 +212,7 @@ button.search-btn:hover {
   color: #0D369E;
 }
 
-.mode-container i{
+.mode-container i {
   font-size: 15px;
 }
 
@@ -221,7 +225,9 @@ button.search-btn:hover {
   cursor: pointer;
 }
 
-.fa-sun, .fa-sun:after, .fa-sun:before {
+.fa-sun,
+.fa-sun:after,
+.fa-sun:before {
   box-sizing: border-box;
   display: block;
   width: 24px;
@@ -237,7 +243,8 @@ button.search-btn:hover {
   border: 6px solid transparent;
 }
 
-.fa-moon, .fa-moon:after {
+.fa-moon,
+.fa-moon:after {
   display: block;
   box-sizing: border-box;
   border-radius: 50%;
@@ -253,6 +260,7 @@ button.search-btn:hover {
   top: 8px;
   left: 2px;
 }
+
 /* End Top Header */
 
 /* Slide */
@@ -297,7 +305,8 @@ button.search-btn:hover {
   color: #fff;
 }
 
-.carousel .carousel_item .banner-top1 .banner-info-bg .btn-style, .carousel .carousel_item .banner-top2 .banner-info-bg .btn-style {
+.carousel .carousel_item .banner-top1 .banner-info-bg .btn-style,
+.carousel .carousel_item .banner-top2 .banner-info-bg .btn-style {
   padding: 14px 30px;
   font-weight: 600;
   font-size: 16px;
@@ -314,6 +323,7 @@ button.search-btn:hover {
   transition: 0.3s ease-out;
   text-decoration: none;
 }
+
 /* End Slide */
 
 /* HomePage Features */
@@ -372,8 +382,198 @@ button.search-btn:hover {
 .home-page .inner-container .area-box.color-4 {
   background-color: #1ee697;
 }
+
 /* End HomePage Features */
 
 /* Welcome to Studious */
+.welcome-studious .features-main .title-heading-w3 {
+  max-width: 700px;
+  text-align: center !important;
+}
+
+.welcome-studious .features-main .title-heading-w3 h3.title-main {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  position: relative;
+}
+
+.welcome-studious .features-main .title-heading-w3 h3.title-main::before {
+  content: "";
+  left: -20px;
+  bottom: -8px;
+  background: #707070;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+}
+
+.welcome-studious .features-main .title-heading-w3 h3.title-main::after {
+  content: "";
+  left: 20px;
+  bottom: -15px;
+  background: #707070;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+}
+
+.welcome-studious .features-main .inner-title-main {
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.welcome-studious .features-main .inner-title-main .feature-images span {
+  color: #0d369f;
+  font-size: 30px;
+  background: rgb(13 54 159 / 9%);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+.welcome-studious .features-main .inner-title-main .feature-body .feature-info h3.feature-titel {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.welcome-studious .features-main .inner-title-main .feature-body .feature-info h3.feature-titel:hover {
+  color: #ff6e65;
+}
+
+.welcome-studious .features-main .inner-title-main .feature-body .feature-info .feature-text {
+  margin-top: 15px;
+}
 
 /* End Welcome to Studious */
+
+/* Home Page Cover */
+.home-page-cover .services-ab {
+  background-image: url(../images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.home-page-cover .services-ab .services-grids .services-right-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.home-page-cover .services-ab .services-grids .services-right-grid .feature-gd {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.home-page-cover .services-ab .services-grids .services-right-grid .feature-gd .icon {
+  margin-right: 1em;
+}
+
+.home-page-cover .services-ab .services-grids .services-right-grid .feature-gd .icon i {
+  color: #0d369f;
+  font-size: 28px;
+  background: rgb(13 54 159 / 9%);
+  width: 65px;
+  height: 66px;
+  line-height: 65px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.home-page-cover .services-ab .services-grids .services-right-grid .feature-gd .icon-info h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #060606;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+/* End Home Page Cover */
+
+/* Home Page Stats */
+.stats .title-heading {
+  max-width: 700px;
+  text-align: center !important;
+}
+
+.stats .title-heading .title-main {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  position: relative;
+}
+
+.stats .title-heading h3.title-main::before {
+  content: "";
+  background: #707070;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  left: -20px;
+  bottom: -8px;
+}
+
+.stats .title-heading h3.title-main span {
+  color: #ff6e65;
+}
+
+.stats .title-heading h3.title-main::after {
+  content: "";
+  background: #707070;
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  left: 20px;
+  bottom: -15px;
+}
+
+.stats .inner-stats .number {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.stats .inner-stats .number .number__item {
+  border-right: 1px solid #eee;
+}
+
+.stats .inner-stats .number .number__item .number__count {
+  font-size: 46px;
+  font-weight: 600;
+  color: #060606;
+}
+
+.stats .inner-stats .number .number__item .count-text {
+  text-transform: uppercase;
+  color: #060606;
+}
+/* End Home Page Stats */
+
+/* Home Page Testimonials */
+
+/* End Home Page Testimonials */
