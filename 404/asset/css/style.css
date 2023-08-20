@@ -1,0 +1,43 @@
+.main {
+  background-image: url(../img/error.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  padding: 70px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.main .error h1 {
+  font-size: 160px;
+}
+
+.main .error h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main .error a {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.main .error a:hover {
+  color: var(--color-pink);
+  text-decoration: none;
+}
