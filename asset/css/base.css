@@ -3,6 +3,7 @@
   --color-white: #ffffff;
   --color-blue: #0d369f;
   --color-pink: #ff6e65;
+  --color-grey: #787878;
 }
 
 /* Container */
@@ -20,9 +21,12 @@
 }
 
 /* Font */
-@font-face {
+body {
   font-family: 'Montserrat', sans-serif;
-  src: url(../font/Montserrat-Italic-VariableFont_wght.ttf) format('truetype'), url(../font/Montserrat-VariableFont_wght.ttf) format('truetype');
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-black);
 }
 
 li,
@@ -33,4 +37,5 @@ ol {
 
 a {
   text-decoration: none;
+  color: var(--color-black);
 }
