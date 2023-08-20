@@ -1,0 +1,36 @@
+/* Color */
+:root {
+  --color-white: #ffffff;
+  --color-blue: #0d369f;
+  --color-pink: #ff6e65;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Font */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../font/Montserrat-Italic-VariableFont_wght.ttf) format('truetype'), url(../font/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
