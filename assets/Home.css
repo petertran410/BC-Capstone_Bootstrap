@@ -418,6 +418,10 @@ button.search-btn:hover {
   position: relative;
 }
 
+.welcome-studious .features-main .title-heading-w3 h3.title-main span {
+  color: #ff6e65;
+}
+
 .welcome-studious .features-main .title-heading-w3 h3.title-main::before {
   content: "";
   left: -20px;
