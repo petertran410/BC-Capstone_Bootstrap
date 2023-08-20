@@ -31,17 +31,15 @@ li {
   list-style: none;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0;
 }
-
-/* a:hover {
-  color: #0d369f;
-} */
 
 p {
   margin: 0;
@@ -49,18 +47,24 @@ p {
   font-size: 16px;
   line-height: 28px;
   color: #707070;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
-ul, li, a {
+ul,
+li,
+a {
   transition: all 0.5s;
 }
 
-body button, .btn, body a {
+body button,
+.btn,
+body a {
   transition: all 0.5s;
 }
 
-body a, button, .btn {
+body a,
+button,
+.btn {
   cursor: pointer !important;
 }
 
@@ -85,4 +89,3 @@ body a, button, .btn {
     margin-left: auto;
   }
 }
-
