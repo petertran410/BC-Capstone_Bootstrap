@@ -291,7 +291,7 @@ button.search-btn:hover {
 
 /* Banner */
 .inner-banner {
-  background-image: url("/images/bg4.jpg");
+  background-image: url("../images/bg4.jpg");
 }
 
 .inner-banner {
