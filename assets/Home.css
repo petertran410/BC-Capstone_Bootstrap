@@ -267,6 +267,13 @@ button.search-btn:hover {
   top: 5px;
 }
 
+.fa-sun:after,
+.fa-sun:before {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+}
+
 .fa-sun {
   position: relative;
   transform: scale(var(--ggs, 1));
