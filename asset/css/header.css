@@ -61,16 +61,6 @@ header.sticky {
   height: 90px;
 }
 
-/* header.nav-fixed {
-  position: fixed;
-  padding: 0px;
-  border-bottom: none;
-  z-index: 999 !important;
-  background-color: #fff;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
-  height: 70px;
-} */
-
 .header .navbar {
   justify-content: space-between;
   position: relative;
@@ -133,7 +123,6 @@ header.sticky {
 }
 
 @media (min-width: 992px) {
-
   .ml-lg-auto,
   .mx-lg-auto {
     margin-left: auto !important;
@@ -160,8 +149,7 @@ div ul li {
 }
 
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
-.navbar-expand-lg .navbar-nav .nav-link:hover,
-.navbar-expand-lg .navbar-nav .dropdown-item:hover {
+.navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .dropdown-item:hover {
   color: #ff6e65;
 }
 
@@ -199,7 +187,8 @@ div ul li {
 button.search-btn {
   position: absolute;
   color: #0d369f;
-  right: 0;
+  right: 20px;
+  padding: 0px 0px 0px 0px
 }
 
 .navbar form.search-box input {
@@ -246,6 +235,7 @@ button.search-btn:hover {
 
 .mode-container i.fa-sun {
   display: none;
+  cursor: pointer;
 }
 
 .mode-container i.fa-moon {
@@ -268,14 +258,25 @@ button.search-btn:hover {
   top: 5px;
 }
 
+.fa-sun:after,
+.fa-sun:before {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+}
+
 .fa-sun {
   position: relative;
   transform: scale(var(--ggs, 1));
   height: 24px;
-  background: linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 5px -6px/2px 6px,
-    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 5px 14px/2px 6px,
-    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat -8px 5px/6px 2px,
-    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 14px 5px/6px 2px;
+  background: linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat
+      5px -6px/2px 6px,
+    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 5px 14px/2px
+      6px,
+    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat -8px 5px/6px
+      2px,
+    linear-gradient(180deg, currentColor 4px, transparent 0) no-repeat 14px 5px/6px
+      2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
   border: 6px solid transparent;
