@@ -31,18 +31,17 @@ li {
   list-style: none;
 }
 
-a {
+a, a:hover {
   text-decoration: none;
-  color: black;
 }
 
 a:hover, a:active {
   outline: 0;
 }
 
-a:hover {
+/* a:hover {
   color: #0d369f;
-}
+} */
 
 p {
   margin: 0;
